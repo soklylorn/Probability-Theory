@@ -1,6 +1,3 @@
-# This is my solution and I didn't copy or sent it to the others
-#Lorn Sokly N42TNN
-
 from random import randint
 
 def simulate(n): 
