@@ -1,32 +1,14 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
-{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
-{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
-{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+Problem A. Risk
 
-\f0\b\fs48 \cf0 Problem A. Risk\
+In the strategic board game called Risk, one player can attack up to three soldiers simultaneously, while the defending player can defend up to two. In the case of exactly three attackers and two defenders, the collision is as follows. An attacking player rolls three red dice while the defending player rolls two blue dice. Then they compare the biggest throws of the attacker and the defender. The lesser value loses a soldier, in the case of equal values the attacker loses one soldier. Then the second largest numbers are also compared in the same way. Thus, the battle has three outcomes: the attacker loses two soldiers, each side loses 1-1 soldiers, the defender loses two soldiers.
 
-\f1\b0\fs24 \
+	•	Simulate 1000 times the experiment and determine the relative frequency of the three events.
+	•	Simulate 1000000 times the experiment and determine the relative frequency of the three events.
+	•	Calculate the exact probability of the three outcomes by examining all possible cases. The probability is the ratio of the favorable cases and the total number of cases.
+	•	
+Write these results with 5 decimal places leaving 3 spaces between them! The output of the program looks like this (of course with other numbers)
 
-\fs36 In the strategic board game called Risk, one player can attack up to three soldiers simultaneously, while the defending player can defend up to two. In the case of exactly three attackers and two defenders, the collision is as follows. An attacking player rolls three red dice while the defending player rolls two blue dice. Then they compare the biggest throws of the attacker and the defender. The lesser value loses a soldier, in the case of equal values the attacker loses one soldier. Then the second largest numbers are also compared in the same way. Thus, the battle has three outcomes: the attacker loses two soldiers, each side loses 1-1 soldiers, the defender loses two soldiers.\
-\
-\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
-\ls1\ilvl0\cf0 {\listtext	\uc0\u8226 	}Simulate 1000 times the experiment and determine the relative frequency of the three events.\
-\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
-\ls2\ilvl0\cf0 {\listtext	\uc0\u8226 	}Simulate 1000000 times the experiment and determine the relative frequency of the three events.\
-\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
-\ls3\ilvl0\cf0 {\listtext	\uc0\u8226 	}Calculate the exact probability of the three outcomes by examining all possible cases. The probability is the ratio of the favorable cases and the total number of cases.\
-{\listtext	\uc0\u8226 	}\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf0 Write these results with 5 decimal places leaving 3 spaces between them! The output of the program looks like this (of course with other numbers)\
-\
-                                         Attacker  Draw      Defender\
-    1000 experiments        0.35200   0.44400   0.20400\
-    1000000 experiments  0.33988   0.43011   0.23001  \
-    Probability                    0.34000   0.43000   0.23000\
-}
+                                         Attacker  Draw      Defender
+    1000 experiments        0.35200   0.44400   0.20400
+    1000000 experiments  0.33988   0.43011   0.23001  
+    Probability                    0.34000   0.43000   0.23000
